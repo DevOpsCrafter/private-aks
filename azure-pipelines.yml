@@ -15,7 +15,7 @@ steps:
 - task: Kubernetes@1
   inputs:
     connectionType: 'Kubernetes Service Connection'
-    azureSubscriptionEndpoint: 'Private AKS Connection'
+    kubernetesServiceConnection: 'Private AKS Connection'
     azureResourceGroup: 'test'
     kubernetesCluster: 'aks'
     command: 'apply'
