@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: private-reg-container
-    image: acrater.azurecr.io/pushkar-celebal/aks:latest
+    image: acrater.azurecr.io/pushkar-celebal/private-aks:latest
   imagePullSecrets:
   - name: regcred
